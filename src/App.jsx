@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       {/* <h1 className="">HELLOW</h1> */}
-      <div className="bg-black text-white px-5 py-20 text-center">
+      <div className="bg-black text-white px-5 py-20 text-center flex-wrap">
       <BrowserRouter>
         <nav className="flex gap-5 text-center">
           <Link className="hover:underline" to="/">Student_List</Link>
