@@ -39,7 +39,7 @@ const List_Item = () => {
     navigation("/favourite");
   }
   return (
-    <p className="flex flex-wrap">
+    <p className="flex-wrap">
       ID : {index + 1} . Roll no : {item.rollNo} {item.name}
       <button
         className="border border-black px-5 py-2 pointer rounded-md bg-red-500 mx-3 my-2 cursor-pointer"
