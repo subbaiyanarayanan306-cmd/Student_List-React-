@@ -17,7 +17,7 @@ const Favourite_student = () => {
   }
   return (
     <div>
-      <h1 className="my-5 font-medium text-2x1">Favourite student list</h1>
+      <h1 className="my-5 font-medium text-2xl">Favourite student list</h1>
       {favourite.map(function (item) {
         return (
           <p key={item.id}>
