@@ -21,7 +21,7 @@ const Favourite_student = () => {
       {favourite.map(function (item) {
         return (
           <p key={item.id}>
-            ID : {item.id} | Roll No : {item.rollNo} | Name : {item.name}
+            ID : {item.id} | Roll No : {item.rollno} | Name : {item.name}
             <button
               className="border border-black px-5 py-2 pointer rounded-md  bg-red-500 mx-3 my-2 cursor-pointer"
               onClick={() => handleDelete(item.id)}
