@@ -10,18 +10,18 @@ function App() {
   const [list, setList] = useState([
     {
       id: 1,
-      rollNo: 1,
+      rollno: 1,
       name: "subbaiya",
     },
     {
       id: 2,
-      rollNo: 2,
+      rollno: 2,
       name: "sunder",
     },
 
     {
       id: 3,
-      rollNo: 3,
+      rollno: 3,
       name: "sunnil",
     },
   ]);
