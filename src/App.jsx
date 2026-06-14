@@ -31,8 +31,8 @@ function App() {
       <div className="bg-black text-white px-5 py-20 text-center flex-wrap">
       <BrowserRouter>
         <nav className="flex gap-5 text-center">
-          <Link className="hover:underline" to="/">Student_List</Link>
-          <Link className="hover:underline" to="/favourite">Favourite_student</Link>
+          <Link className="hover:underline bg-green-400 px-4 py-2 rounded-md" to="/">Student_List</Link>
+          <Link className="hover:underline bg-yellow-400 px-4 py-2 rounded-md" to="/favourite">Favourite_student</Link>
         </nav>
         <FavouriteContext.Provider value={{ favourite, setFavourite }}>
           <StudentList.Provider value={{ list, setList }}>

@@ -31,7 +31,7 @@ const Student_List = () => {
         <input
           value={input}
           onChange={handlechange}
-          className="border border-black px-5 py-3 my-2 rounded-md bg-gray-400 text-black font-medium "
+          className="border border-black px-5 py-3 my-8 rounded-md bg-gray-400 text-black font-medium "
           type="text"
           placeholder="Enter studen name here?"
         />
