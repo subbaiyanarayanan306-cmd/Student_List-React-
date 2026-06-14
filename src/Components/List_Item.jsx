@@ -39,8 +39,10 @@ const List_Item = () => {
     navigation("/favourite");
   }
   return (
-    <p className="flex-wrap">
+    <div className=" md:flex-row md:items-center gap-3">
+      <p>
       ID : {index + 1} . Roll no : {item.rollNo} {item.name}
+      </p>
       <button
         className="border border-black px-5 py-2 pointer rounded-md bg-red-500 mx-3 my-2 cursor-pointer"
         onClick={() => handleDelete(id)}
@@ -53,7 +55,7 @@ const List_Item = () => {
       >
         Add to Favourite
       </button>
-    </p>
+    </div>
   );
 };
 
